@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "172697905456",
+    "project_id": "crartenatm",
+    "storage_bucket": "crartenatm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172697905456:android:a290f48a6cfb3dafa240f5",
+        "android_client_info": {
+          "package_name": "com.example.projectkhadija"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDr6VA9PWGhL65X5KP3KYPNhzcVkAWQN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172697905456:android:83876e22c3622084a240f5",
+        "android_client_info": {
+          "package_name": "com.exemple.projectkhadija"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDr6VA9PWGhL65X5KP3KYPNhzcVkAWQN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

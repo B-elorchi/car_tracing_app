@@ -1,0 +1,2 @@
+C:/Users/Hi/Downloads/projectKhadija/android/app/.cxx/Debug/245z4iv2/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/Hi/Downloads/projectKhadija/android/app/.cxx/Debug/245z4iv2/armeabi-v7a/CMakeFiles/rebuild_cache.dir

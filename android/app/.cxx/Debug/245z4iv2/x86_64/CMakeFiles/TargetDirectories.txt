@@ -1,0 +1,2 @@
+C:/Users/Hi/Downloads/projectKhadija/android/app/.cxx/Debug/245z4iv2/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/Hi/Downloads/projectKhadija/android/app/.cxx/Debug/245z4iv2/x86_64/CMakeFiles/rebuild_cache.dir
