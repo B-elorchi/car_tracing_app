@@ -68,8 +68,8 @@ class _AdminDashboardState extends State<AdminDashboard> {
       VehicleManagementTab(vehicleController: _vehicleController),
       VehicleHistoryTab(vehicleController: _vehicleController),
       const AdminLiveTrackingPage(),
-      VehicleGroupPage(vehicleController: _vehicleController),
       ReservationManagementTab(
+        // Problème \"argument type\" persiste ici.
         reservationController: _reservationController,
         vehicleController: _vehicleController,
         authService: _authService, // Le problème "argument type" persiste ici.
@@ -199,9 +199,14 @@ class _AdminDashboardState extends State<AdminDashboard> {
           ],
         ),
       ),
-      body: IndexedStack(
-        index: AdminDashboardTab.values.indexOf(_selectedTab),
-        children: _tabs,
+      body: SingleChildScrollView(
+        scrollDirection: Axis.horizontal,
+        child: SingleChildScrollView(
+          child: IndexedStack(
+            index: AdminDashboardTab.values.indexOf(_selectedTab),
+            children: _tabs,
+          ),
+        ),
       ),
       floatingActionButton: _selectedTab == AdminDashboardTab.vehicleManagement
           ? FloatingActionButton(
